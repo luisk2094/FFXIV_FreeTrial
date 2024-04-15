@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(255,255,255,0.65)), url('../images/ffxiv_background.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 89vh;
+    width: 130vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+
+.content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    text-align: center;
+    width: 100%; /* Adjust width as necessary */
+}
+
+.content h2 {
+        color: #FFD700; /* Gold color for emphasis */
+        text-shadow: 1px 1px 3px #000;
+        margin: 20px 0;
+        font-weight: bold;
+}
+
+.content2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+    width: 100%; /* Adjust width as necessary */
+}
+
+.content2 h3 {
+        color: #FFD700; /* Gold color for emphasis */
+        text-shadow: 1px 1px 3px #000;
+        text-align: left;
+        margin: 1% 10%;
+        font-weight: bold;
+}
+
+.content2 h6 {
+        color: white; /* Gold color for emphasis */
+        text-shadow: 1px 1px 3px #000;
+        text-align: left;
+        margin: 1% 10%;
+}
+
+.img-responsive {
+    width: 20%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra space below the image */
+    margin: 0 auto; /* Center align if necessary */
+}
